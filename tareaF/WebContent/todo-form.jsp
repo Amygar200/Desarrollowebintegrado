@@ -16,7 +16,7 @@
 <body>
  <header>
   <nav class="navbar navbar-expand-md navbar-dark"
-   style="background-color: tomato">
+   style="background-color: LIGHTSALMON">
    <div>
     <a href="https://www.javaguides.net" class="navbar-brand"> Todo
      App</a>
@@ -24,12 +24,12 @@
 
    <ul class="navbar-nav">
     <li><a href="<%=request.getContextPath()%>/list"
-     class="nav-link">Todos</a></li>
+      class="btn btn-sm btn-outline-light">Todos</a></li>
    </ul>
 
    <ul class="navbar-nav navbar-collapse justify-content-end">
     <li><a href="<%=request.getContextPath()%>/logout"
-     class="nav-link">Logout</a></li>
+      class="btn btn-sm btn-outline-light">Logout</a></li>
    </ul>
   </nav>
  </header>

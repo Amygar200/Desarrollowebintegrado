@@ -18,6 +18,8 @@
             </br>
             <form action="<%=request.getContextPath()%>/login" method="post">
             	<div class="container col-md-5">
+            	<div class="card">
+            	<div class="card-body">
 				<table class="table table-striped table-bordered">
 
                 <div class="form-group ">
@@ -31,6 +33,8 @@
 
                 <button  type="submit" class="btn btn-primary btn-lg">Enviar</button>
                 </table>
+                </div>
+                </div>
                 </div>
             </form>
         </div>
